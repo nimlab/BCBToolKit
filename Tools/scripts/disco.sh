@@ -55,3 +55,4 @@ fslmaths $3/$subj_name -thr $4 $3/$subj_name
 fslcpgeom $1 $3/$subj_name
 
 echo "#"
+echo "$3/$subj_name"
