@@ -16,11 +16,11 @@ echo -n "" > $3/logs/${subject}.txt
 exec 2>> $3/logs/${subject}.txt
 set -x
 
-path=/data/nimlab/toolkits/BCBToolKit/Tools
+path=/data/nimlab/software/BCBToolKit/Tools
 tmp=$3/tmp_disco
 lib=$path/libraries/lib
 bin=$path/binaries/bin
-export PATH=$PATH:$path/binaries/bin
+export PATH=$PATH:$bin
 export LD_LIBRARY_PATH=$lib
 export FSLLOCKDIR=""
 export FSLMACHINELIST=""
