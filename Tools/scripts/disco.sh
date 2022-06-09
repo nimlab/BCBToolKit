@@ -16,7 +16,7 @@ echo -n "" > $3/logs/${subject}.txt
 exec 2>> $3/logs/${subject}.txt
 set -x
 
-path=/data/nimlab/software/BCBToolKit/Tools
+path=$NIMLAB_BCB_PATH/Tools
 tmp=$3/tmp_disco
 lib=$path/libraries/lib
 bin=$path/binaries/bin

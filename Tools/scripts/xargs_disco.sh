@@ -13,7 +13,7 @@ then
 fi;
 mkdir -p $5/logs
 
-# Edits from WD Aug30,2021: commented out two lines below, added 'tmp=$3/tmp_disco'
+# Edits from WD Aug30,2021: commented out two lines below, added 'tmp=$5/tmp_disco'
 # path=${PWD}/Tools
 # tmp=$path/tmp/tmp_disco
 tmp=$5/tmp_disco
