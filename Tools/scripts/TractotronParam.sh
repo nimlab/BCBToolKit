@@ -10,7 +10,7 @@ exec 2>> $3/logTractotron.txt
 set -x
 
 
-path=/data/nimlab/toolkits/BCBToolKit/Tools
+path=/data/nimlab/software/BCBToolKit/Tools
 lib=$path/libraries/lib
 bin=$path/binaries/bin
 
